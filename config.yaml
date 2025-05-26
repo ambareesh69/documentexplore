@@ -1,0 +1,12 @@
+# config.yaml
+global:
+  title: "Global Oil & Gas Reporting Explorer"
+  description: "An interactive tool to explore themes and insights from global oil & gas reports."
+  similarity_threshold: 0.8
+  charsPerPixel: 20
+
+reports:
+  - name: "Global O&G Reports"
+    slug: "global-og-reporting"
+    data_file: "backend/clustered_embeddings.json"
+    cluster_names_file: "backend/cluster_names.json"

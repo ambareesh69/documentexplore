@@ -1,0 +1,26 @@
+/* ui/style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+}
+
+#visualization {
+  margin-top: 20px;
+}
+
+.cluster {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 4px;
+}
+
+#chart {
+  margin-top: 20px;
+}
