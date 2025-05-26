@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Set the LLMFOUNDRY_TOKEN environment variable
-export LLMFOUNDRY_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFtYmFyZWVzaC5iYWxhc3VicmFtYW5pYW5Ac3RyYWl2ZS5jb20ifQ.ql4sGqXFetULmMI8qVA4_oWMQh_J01QsyuFdnQQq9eQ"
+# IMPORTANT: Do not hardcode tokens in scripts. Use environment variables instead.
+# Example: export LLMFOUNDRY_TOKEN="your_token_here"
+# or load from a .env file that is not committed to the repository
 
 # Run the main.py script
 python main.py 
