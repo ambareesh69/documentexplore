@@ -1,6 +1,49 @@
-# DocumentExplore
+# Document Explorer
 
-A document analysis tool that extracts text from PDFs/DOCX files, generates embeddings, clusters content, and identifies key topics - all without requiring external API services.
+A tool for exploring and analyzing document content using NLP techniques.
+
+## Setup and Installation
+
+1. **Clone the repository**
+   ```
+   git clone https://github.com/yourusername/DocumentExplore.git
+   cd DocumentExplore
+   ```
+
+2. **Create a virtual environment**
+   
+   For macOS/Linux:
+   ```
+   python -m venv venv
+   source venv/bin/activate
+   ```
+   
+   For Windows:
+   ```
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. **Run the app**
+   ```
+   streamlit run app.py
+   ```
+
+## Features
+
+- Upload and analyze PDF and DOCX documents
+- Extract key insights and visualize document content
+- Compare multiple documents
+
+## Requirements
+
+- Python 3.6+
+- All dependencies are listed in requirements.txt
 
 ## Overview
 
@@ -11,31 +54,6 @@ DocumentExplore automatically analyzes documents and provides insights by:
 - Automatically clustering similar content using machine learning
 - Identifying key topics using unsupervised learning
 - Visualizing the results in an interactive web interface
-
-## Setup
-
-1. Create a virtual environment:
-   ```
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Place your PDF/DOCX files in the `reports/` directory.
-
-4. Run the pipeline:
-   ```
-   python main.py
-   ```
-
-5. Open the web interface:
-   ```
-   streamlit run app.py
-   ```
 
 ## Components
 
